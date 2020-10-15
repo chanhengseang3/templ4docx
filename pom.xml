@@ -25,19 +25,13 @@
 		<system>GitHub Issues</system>
 	</issueManagement>
 
-	<scm>
-		<url>git@github.com:jsolve/templ4docx.git</url>
-		<connection>scm:git:git@github.com:jsolve/templ4docx.git</connection>
-		<developerConnection>scm:git:git@github.com:jsolve/templ4docx.git</developerConnection>
-	</scm>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<poi.version>3.16</poi.version>
-		<java.version>1.6</java.version>
-		<maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
-		<maven-jar-plugin.version>2.4</maven-jar-plugin.version>
-		<wagon-ftp.version>2.6</wagon-ftp.version>
+		<poi.version>4.1.2</poi.version>
+		<java.version>11</java.version>
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
+		<wagon-ftp.version>3.4.1</wagon-ftp.version>
 	</properties>
 
 	<dependencies>
